@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Survey Form</title>
+    
+
+    <head>
+      <body>
+        <h1 id="title">Welcome to my first Survey Form</h1>
+        <p id="description">Enter your data and enjoy;) </p>
+        <form method="post" action='https://register-demo.freecodecamp.org'>
+        <div class="data">
+    <fieldset>
+        <label for="survey-form" id="name">First name
+            <form id="survey-form"> <input type="text" name="survey-form" id="name" placeholder="Samuel"required></form>
+        </label>
+        <label for="last-name" id="name-label">Last name
+            <form id="survey-form"> <input type="text" name="last-name" id="last-name" placeholder="Onzo" required></form>
+        </label>
+        <label form="email" id="email-label">Email
+          <form id="email"> <input type="email" name="email" id="email" placeholder="Madchado@gmail.com"required></form>
+          </label>
+            <label id="number-label">Age
+        <form form="age"id="survey-form"> <input type="number" 
+    name="age" min="18" max="120" placeholder="18" required></form>
+    </label>
+    </div>
+    </fieldset>
+    
+    <fieldset>
+      <legend>Super important to know.</legend>
+      <label for="dogs"><input id="dogs" type="radio" name="Super-important" class="inline" checked /> Dogs</label>
+      <label for="cats"><input id="cats" name="Super-important" type="radio" class="inline"/> Cats</label>
+    </fieldset>
+    
+    <fieldset>
+      <label for="pet-picture">Upload a photo of your pet: <input id="pet-picture" type="file" name="file" /></label>
+      
+        <label for="number-label" id="survey-form"> Age of your pet<input type="number" 
+    name="age" min="1" max="120" placeholder="1" required/></label>
+    
+        <label for="love">Do you love at your pet?
+         <select id="love" name="love">
+                <option value="">(select one)</option>
+                <option value="1">Yes <3 </option>
+                <option value="2">No.</option>
+        </select>
+        </label>
+        <label for="pet">
+              <textarea id="bio" name="pet" rows="5" cols="30" placeholder="Tell about your pet..."></textarea>
+            </label>
+    </fieldset>
+    
+    <input type="submit" value="Submit">
+      </body>
+    
+    </head>
+    <footer>Be kind no matter what</footer>

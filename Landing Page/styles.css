@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+	--white: hsl(0, 0%, 100%);
+	--text: hsl(240, 4%, 5%);
+	--pale: hsl(32, 37%, 92%);
+}
+
+*{
+	margin: 0;
+}
+
+body{
+	background-color: var(--pale);
+}
+
+#header-img{
+	width: 60px;
+	object-fit: cover;
+}
+
+
+.nav-links {
+	display: flex;
+	list-style: none;
+}
+
+.nav-links a{
+	text-decoration: none;
+	padding: 0 10px;
+	border: 1px solid;
+	border-radius: 15px;
+	background-color: #12a721;
+	color: white;
+	font-size: 20px;
+	font-weight: 400;
+	font-family: "kanit", sans-serif;
+	margin: 5px;
+	cursor: pointer;
+	transition: text-indent 0.8s ease-in-out;
+}
+
+.nav-links a:hover{
+	text-indent: 5px;
+	font-weight: 500;
+}
+
+#nav-bar {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	background-color: var(--white);
+}
+
+.logo{
+	display: flex;
+	align-items: center;
+	padding: 10px;
+}
+
+.the-product{
+	font-size: 25px;
+	margin-left: 10px;
+	font-weight: 700;
+	font-family: "Montserrat", sans-serif;
+}
+
+#email-section{
+	margin-top: 300px;
+}
+
+
+section::before{
+	display: block;
+	content: " ";
+	margin-top: -100px;
+	visibility: hidden;
+	pointer-events: none;
+}
+
+section{
+	margin: 40px 20px;
+	text-align: center;
+}
+
+input{
+	padding: 8px;
+	border-radius: 15px;
+	border: 1px solid #73f02b;
+}
+
+#submit {
+	background-color: #c1fe98;
+	font-size: 15px;
+	cursor: pointer;
+}
+
+h2{
+	font-family: "fraunces";
+	margin-bottom: 10px;
+}
+
+i{
+	color: #3d3d3d;
+}
+
+#features{
+	text-align: left;
+	max-width: 800px;
+	margin: auto;
+	display: flex;
+}
+
+.feature{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 20px;
+	font-family: "montserrat";
+}
+
+#video{
+	width: 50%;
+	display: flex;
+	align-items: center;
+	position: relative;
+}
+
+
+.prouct-image {
+	width: 100%;
+	margin: auto;
+	height: 500px;
+	border: 1px solid black;
+	border-radius: 10px 10px 0 0;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.prouct1{
+	background-image: url(https://www.mygreatlearning.com/wp-data/2020/08/17160042/shutterstock_577183882.jpg);
+}
+
+.card{
+	background-color: var(--white);
+	border-radius: 10px;
+	width: 90%;
+	margin: auto;
+	margin-bottom: 10px;
+}
+
+.inner-card{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	padding: 10px;
+}
+
+.content{
+	font-family: "montserrat";
+	margin-bottom: 10px;
+}
+
+.flex {
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+.main-price{
+	margin-right: 20px;
+	font-size: 30px;
+	font-family: "fraunces";
+	color: #73f02b;
+}
+
+.old-price{
+	text-decoration: line-through;
+	color: var(--text);
+}
+
+.author{
+	font-family: "montserrat";
+	letter-spacing: 5px;
+	color: var(--text);
+	text-transform: uppercase;
+}
+
+.header{
+	font-family: "fraunces";
+	margin: 10px 0;
+	color: #3d3d3d;
+}
+
+
+	

@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Ubuntu:ital,wght@1,400;1,500&display=swap');
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff
+    
+}
+
+body{
+    background-color: #ffffff;
+    background: linear-gradient(500deg,  #f7dd90, #e99520);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+::-webkit-input-placeholder{
+    color: hsl(0, 0%, 100%);
+}
+
+.wrapper{ 
+    box-shadow: 0 0 50px 0 #fbefca;
+    border-radius: 50px 0 50px;
+    position: relative;
+    overflow: hidden;
+    width: 800px;
+    max-width: 100%;
+    min-height: 480px;
+}
+
+.form{
+    background: linear-gradient(500deg,  #efb130, #8b3d15);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 40px;
+    height: 100%;
+}
+
+.tittle{
+    font-size: 35px;
+}
+
+.inp{
+    padding: 10px;
+    border-bottom: 2px solid #000000;
+}
+
+.input{
+    border: none;
+    outline: none;
+    background: none;
+    width: 260px;
+    margin-top: 40px;
+    padding-right: 10px;
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+}
+
+.submit{
+    border-color: #f2c757;
+    color:#f2c757 ;
+    outline: inherit;
+    width: 260px;
+    height: 35px;
+    margin-top: 25px;
+    font-size: 16px;
+    border-radius: 40px;
+    cursor: pointer;
+    background: #411807;
+}
+
+.footer{
+    margin-top: 30px;
+    letter-spacing: 0.5px;
+    font-size: 14px;
+}
+
+.link{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.banner{
+    position: relative;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #0ef, #c800c8);
+    clip-path: polygon(25% 0%, 86% 0, 86% 100%, 25% 100%, 0% 50%);
+    padding-right: 70px;
+    text-align: right;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.wel-text{
+    font-size: 40px;
+    margin-top: -50px;
+    line-height: 50px;
+
+}
+
+.para{
+    margin-top: 10px;
+    height: 30%;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 1px;
+}
